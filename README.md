@@ -1,12 +1,7 @@
-```all: README.md
+## The Unix Workbench course assesment
 
-README.md: guessinggame.sh
-	echo "## The Unix Workbench course assesment" > README.md
-	echo "*provided by Johns Hopkins University on [coursera.org](https://www.coursera.org/).*" >> README.md
-	echo -n "**Make date**: " >> README.md
-	date >> README.md
-	echo -n "**Number of lines in guessinggame.sh**: " >> README.md
-	grep -c '' guessinggame.sh >> README.md
+*provided by Johns Hopkins University on [coursera.org](https://www.coursera.org/).*
 
-clean:
-rm README.md```
+**Make date**: Thu Jul 3 2:15:25 IST 2020
+
+**Number of lines of code in the game**: 25 guessinggame.sh
